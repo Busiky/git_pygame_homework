@@ -17,7 +17,6 @@ def draw():
     # drawing smiling face
     pygame.draw.ellipse(screen, pygame.Color('yellow'), (400, 400, 80, 80))
     pygame.draw.arc(screen, pygame.Color('black'), (420, 440, 40, 25), math.pi, 0, 2)
-    # pygame.draw.rect(screen, pygame.Color('black'), (425, 455, 30, 4), 2)
     # draw eyes
     pygame.draw.ellipse(screen, pygame.Color('black'), (420, 430, 6, 6), 2)
     pygame.draw.ellipse(screen, pygame.Color('black'), (455, 430, 6, 6), 2)
