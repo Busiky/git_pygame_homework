@@ -12,6 +12,8 @@ def draw():
     pygame.draw.rect(screen, pygame.Color('blue'), (50, 120, 430, 100))
     pygame.draw.rect(screen, pygame.Color('white'), (50, 20, 430, 100))
 
+    pygame.draw.rect(screen, pygame.Color((0, 0, 0)), (440, 440, 30, 4), 2)
+
 
 draw()
 
